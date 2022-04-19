@@ -2,7 +2,10 @@
 
 # Math Magicians
 
-> A 3 page project that presents a math calculator with various
+> "Math magicians" is a website for all fans of mathematics. It allows users to:
+>
+> - Make simple calculations.
+> - Read a random math-related quote.
 
 ## Built With
 
@@ -14,8 +17,11 @@ Not yet
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- Clone this repo with:
+`git clone https://github.com/fasaldana/math-magicians.git`
+
+- Run application using:
+`npm start`
 
 ## Authors
 
