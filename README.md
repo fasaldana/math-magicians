@@ -17,11 +17,10 @@ Not yet
 
 ## Getting Started
 
-- Clone this repo with:
-`git clone https://github.com/fasaldana/math-magicians.git`
-
-- Run application using:
-`npm start`
+- `$ git clone https://github.com/fasaldana/math-magicians.git`
+- `$ cd math-magicians`
+- `$ npm install`
+- `$ npm start`
 
 ## Authors
 
