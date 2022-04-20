@@ -30,15 +30,12 @@
 .number-inp {
   width: 98%;
   text-align: right;
-}
-
-.orange-btn {
-  background-color: #d7681b;
-}
-
-.number-inp {
   height: 3em;
   background-color: gray;
   color: #fff;
   font-size: 2vw;
+}
+
+.orange-btn {
+  background-color: #d7681b;
 }
