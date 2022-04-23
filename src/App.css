@@ -21,6 +21,7 @@
 .keys button {
   font-size: 1vw;
   border: 1px solid gray;
+  cursor: pointer;
 }
 
 .big-0 {
@@ -28,14 +29,27 @@
 }
 
 .number-inp {
-  width: 98%;
+  width: 100%;
   text-align: right;
-  height: 3em;
+  height: 100%;
   background-color: gray;
   color: #fff;
   font-size: 2vw;
+  border: none;
+  pointer-events: none;
 }
 
 .orange-btn {
   background-color: #d7681b;
+}
+
+.form {
+  background-color: gray;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form p {
+  color: #fff;
+  font-size: 2vw;
 }
