@@ -3,7 +3,7 @@ import calculate from './logic/calculate';
 import ButtonCalc from './buttonCalc';
 
 // eslint-disable-next-line react/prefer-stateless-function
-function Calculator() {
+const Calculator = () => {
   const [obj, setObj] = useState({ next: '', operation: null, total: null });
 
   const placeVal = (e) => {
@@ -39,6 +39,6 @@ function Calculator() {
       </div>
     </div>
   );
-}
+};
 
 export default Calculator;
