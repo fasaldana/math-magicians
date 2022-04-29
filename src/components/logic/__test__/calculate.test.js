@@ -17,16 +17,17 @@ describe('If calculate is returning the right values', () => {
   });
 
   it('Should return all ""', () => {
-    const result = {
-      total: '',
-      next: '',
-      operation: null,
-    };
-    expect(calculate({
-      total: null,
-      next: '0',
-      operation: null,
-    }, '0')).toEqual(result);
+    const result = {};
+    expect(
+      calculate(
+        {
+          total: null,
+          next: '0',
+          operation: null,
+        },
+        '0',
+      ),
+    ).toEqual(result);
   });
 
   it('Should return all 1', () => {
@@ -35,10 +36,15 @@ describe('If calculate is returning the right values', () => {
       next: '10',
       operation: '+',
     };
-    expect(calculate({
-      total: '1',
-      next: '1',
-      operation: '+',
-    }, '0')).toEqual(result);
+    expect(
+      calculate(
+        {
+          total: '1',
+          next: '1',
+          operation: '+',
+        },
+        '0',
+      ),
+    ).toEqual(result);
   });
 });

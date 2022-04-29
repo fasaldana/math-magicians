@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Navbar in an expected way 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="form"
+  >
+    <p />
+    <input
+      className="number-inp"
+      readOnly={true}
+      value=""
+    />
+  </div>
+  <div
+    className="keys"
+  >
+    <button
+      className=""
+      name="AC"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className=""
+      name="+/-"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className=""
+      name="%"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="orange-btn"
+      name="÷"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      className=""
+      name="7"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className=""
+      name="8"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className=""
+      name="9"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="orange-btn"
+      name="x"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      className=""
+      name="4"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className=""
+      name="5"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className=""
+      name="6"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="orange-btn"
+      name="-"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      className=""
+      name="1"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className=""
+      name="2"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className=""
+      name="3"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="orange-btn"
+      name="+"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="big-0"
+      name="0"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className=""
+      name="."
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="orange-btn"
+      name="="
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders calculator in expected way 1`] = `
+  <div className="container">
+      <div className="form">
+        <p>{obj.operation}</p>
+        <input
+          className="number-inp"
+          value={obj.total !== null && obj.next == null ? obj.total : obj.next}
+          readOnly
+        />
+      </div>
+      <div className="keys">
+        <ButtonCalc name="AC" func={placeVal} value="AC" />
+        <ButtonCalc name="+/-" func={placeVal} value="+/-" />
+        <ButtonCalc name="%" func={placeVal} value="%" />
+        <ButtonCalc classname="orange-btn" name="÷" func={placeVal} value="÷" />
+        <ButtonCalc name="7" func={placeVal} value="7" />
+        <ButtonCalc name="8" func={placeVal} value="8" />
+        <ButtonCalc name="9" func={placeVal} value="9" />
+        <ButtonCalc classname="orange-btn" name="x" func={placeVal} value="x" />
+        <ButtonCalc name="4" func={placeVal} value="4" />
+        <ButtonCalc name="5" func={placeVal} value="5" />
+        <ButtonCalc name="6" func={placeVal} value="6" />
+        <ButtonCalc classname="orange-btn" name="-" func={placeVal} value="-" />
+        <ButtonCalc name="1" func={placeVal} value="1" />
+        <ButtonCalc name="2" func={placeVal} value="2" />
+        <ButtonCalc name="3" func={placeVal} value="3" />
+        <ButtonCalc classname="orange-btn" name="+" func={placeVal} value="+" />
+        <ButtonCalc classname="big-0" name="0" func={placeVal} value="0" />
+        <ButtonCalc name="." func={placeVal} value="." />
+        <ButtonCalc classname="orange-btn" name="=" func={placeVal} value="=" />
+      </div>
+    </div>
+`;
+
+exports[`renders in an expected way 1`] = `
+<div
+  className="home-page"
+>
+  <h3>
+    Welcome to our page!
+  </h3>
+  <p>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    <br />
+    <br />
+    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+  </p>
+</div>
+`;
