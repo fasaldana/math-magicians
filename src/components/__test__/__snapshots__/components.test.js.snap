@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders Navbar in an expected way 1`] = `
+exports[`renders Calculator in an expected way 1`] = `
 <div
   className="container"
 >
@@ -173,38 +173,14 @@ exports[`renders Navbar in an expected way 1`] = `
 </div>
 `;
 
-exports[`renders calculator in expected way 1`] = `
-  <div className="container">
-      <div className="form">
-        <p>{obj.operation}</p>
-        <input
-          className="number-inp"
-          value={obj.total !== null && obj.next == null ? obj.total : obj.next}
-          readOnly
-        />
-      </div>
-      <div className="keys">
-        <ButtonCalc name="AC" func={placeVal} value="AC" />
-        <ButtonCalc name="+/-" func={placeVal} value="+/-" />
-        <ButtonCalc name="%" func={placeVal} value="%" />
-        <ButtonCalc classname="orange-btn" name="÷" func={placeVal} value="÷" />
-        <ButtonCalc name="7" func={placeVal} value="7" />
-        <ButtonCalc name="8" func={placeVal} value="8" />
-        <ButtonCalc name="9" func={placeVal} value="9" />
-        <ButtonCalc classname="orange-btn" name="x" func={placeVal} value="x" />
-        <ButtonCalc name="4" func={placeVal} value="4" />
-        <ButtonCalc name="5" func={placeVal} value="5" />
-        <ButtonCalc name="6" func={placeVal} value="6" />
-        <ButtonCalc classname="orange-btn" name="-" func={placeVal} value="-" />
-        <ButtonCalc name="1" func={placeVal} value="1" />
-        <ButtonCalc name="2" func={placeVal} value="2" />
-        <ButtonCalc name="3" func={placeVal} value="3" />
-        <ButtonCalc classname="orange-btn" name="+" func={placeVal} value="+" />
-        <ButtonCalc classname="big-0" name="0" func={placeVal} value="0" />
-        <ButtonCalc name="." func={placeVal} value="." />
-        <ButtonCalc classname="orange-btn" name="=" func={placeVal} value="=" />
-      </div>
-    </div>
+exports[`renders Quotepage in an expected way 1`] = `
+<div
+  className="quote-page"
+>
+  <p>
+    Mathematics is not about numbers, equations, computations or algorithms: it is about understanding. -William Paul Thurston
+  </p>
+</div>
 `;
 
 exports[`renders in an expected way 1`] = `

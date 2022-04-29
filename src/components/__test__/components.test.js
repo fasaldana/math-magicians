@@ -3,7 +3,6 @@ import { render, fireEvent, screen } from '@testing-library/react';
 import Home from '../pages/Home';
 import Calculator from '../Calculator';
 import Quote from '../pages/Quote';
-import CalculatorPage from '../pages/CalculatorPage';
 
 it('renders in an expected way', () => {
   const tree = renderer.create(<Home />).toJSON();
@@ -21,10 +20,10 @@ it('renders Quotepage in an expected way', () => {
 });
 
 it('User performs math operation on calculator', () => {
-  const { container } = render(<CalculatorPage url="/calculator" />);
+  const { container } = render(<Calculator />);
   fireEvent.click(screen.getByText('3'));
   fireEvent.click(screen.getByText('x'));
   fireEvent.click(screen.getByText('5'));
   fireEvent.click(screen.getByText('='));
-  expect(container.getElementsByClassName('previous')[0]).toHaveTextContent('15');
+  expect(container.querySelector('.number-inp').value).toBe('15');
 });
