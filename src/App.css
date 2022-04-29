@@ -1,3 +1,32 @@
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Navbar */
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-container h1 {
+  font-size: 2.5rem;
+}
+
+.nav-container ul {
+  display: flex;
+  gap: 2vw;
+  font-size: 1.5rem;
+}
+
+.active {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Navbar */
+
 .container {
   display: flex;
   flex-direction: column;
