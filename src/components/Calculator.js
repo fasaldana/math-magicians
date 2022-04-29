@@ -14,7 +14,11 @@ const Calculator = () => {
     <div className="container">
       <div className="form">
         <p>{obj.operation}</p>
-        <input className="number-inp" value={obj.total !== null && obj.next == null ? obj.total : obj.next} readOnly />
+        <input
+          className="number-inp"
+          value={obj.total !== null && obj.next == null ? obj.total : obj.next}
+          readOnly
+        />
       </div>
       <div className="keys">
         <ButtonCalc name="AC" func={placeVal} value="AC" />
