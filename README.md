@@ -16,7 +16,7 @@
 - App deployed with Heroku:
 https://math-magicians-hero.herokuapp.com/
 
--App deployed with Netlify:
+- App deployed with Netlify:
 
 
 ## Getting Started
